@@ -201,6 +201,11 @@ Version      : 1.1.9
     line-height: 100%;
     transition: color 0.5s ease;
 }
+.herobtn:hover{
+	color: #aa72ce;
+	box-shadow: 0 0 22px rgb(170 114 206 / 14%);
+	transition: color 0.5s ease;
+}
 .herobtn2{
 	color: white;
 	position: relative;
@@ -220,6 +225,11 @@ Version      : 1.1.9
     font-weight: 700;
     line-height: 100%;
     transition: color 0.5s ease;
+}
+.herobtn2:hover{
+	color: #227f9e;
+	box-shadow: 0 0 22px rgb(170 114 206 / 14%);
+	transition: color 0.5s ease;
 }
 
 /* button-77 */
@@ -338,10 +348,9 @@ Version      : 1.1.9
 }
 .card2 img{
 	object-fit: contain;
-	width: "50%"
+	width: "100%"
 	
 }
-
 .card2:hover{
 	border: 1px solid  #aa72ce;
     color: #aa72ce;
