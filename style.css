@@ -231,6 +231,19 @@ Version      : 1.1.9
 	box-shadow: 0 0 22px rgb(170 114 206 / 14%);
 	transition: color 0.5s ease;
 }
+.apydetails{
+	display: flex;
+	gap: 10vw;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    line-height: 24px;
+    color: #dedede;
+    margin-bottom: 15px;
+	margin-top: 5vh;
+    width: 100%;
+}
 
 /* button-77 */
 .button-77 {
@@ -395,7 +408,13 @@ Version      : 1.1.9
 
 
 .neonText {
-	color: #b63fab !important;
+	margin-top: -4px;
+    margin-left: -1px;
+    font-size: 30px;
+    line-height: 100%;
+    font-weight: 600;
+    color: #aa72ce;
+    transition: text-shadow 0.5s ease;
 
   }
   
