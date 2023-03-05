@@ -244,6 +244,29 @@ Version      : 1.1.9
 	margin-top: 5vh;
     width: 100%;
 }
+.ctus{
+	color: white;
+	position: relative;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid #227f9e;
+	text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 100%;
+    transition: color 0.5s ease;
+}
+.ctus:hover{
+	color: #227f9e;
+	box-shadow: 0 0 22px rgb(170 114 206 / 14%);
+	transition: color 0.5s ease;
+}
 
 /* button-77 */
 .button-77 {
@@ -427,39 +450,38 @@ Version      : 1.1.9
 
 /* CSS */
 .button-27 {
-  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
-  border: 0;
-  border-radius: 12px;
-  color: #FFFFFF !important;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 2.5;
-  outline: transparent;
-  padding: 0 1rem;
-  text-align: center;
-  text-decoration: none;
-  transition: box-shadow .2s ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
+	position: relative;
+    width: 120px;
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 2px solid #aa72ce;
 }
 
 .button-27:not([disabled]):focus {
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  color: #aa72ce;
+  box-shadow: 0 0 22px rgb(170 114 206 / 14%);
+  transition: color 0.5s ease;
 }
 
 .button-27:not([disabled]):hover {
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+	box-shadow: 0 0 22px rgb(170 114 206 / 14%);
 }
 
 input[type="text"]{
 	color:white !important;
-	 background-color:rgba(0, 0, 0, 0.334) !important;
-	  border:0px !important
+	background-color:rgba(0, 0, 0, 0.334) !important;
+	border:0px !important
 }
 
 .roundedDark{
