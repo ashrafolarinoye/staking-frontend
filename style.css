@@ -338,25 +338,14 @@ Version      : 1.1.9
 }
 .card2 img{
 	object-fit: contain;
-	width: 180px;
-	height: 180px;
+	width: "50%"
+	
 }
 
 .card2:hover{
-	padding: 30px;
-	cursor: pointer;
-	transition: all 500ms;
-	margin-bottom: 25%;
-	margin-top: 5%;
-	border-radius: 16px;
-	background: #000000;
-	border: 1px solid rgba(0, 0, 0, 0.18);
-	border-bottom: 5px solid #800080;
-	border-left: 5px solid #800080;
-	border-right: 5px solid #800080;
-	border-top: 20px solid #800080;
-	border-radius: 50px;
-	
+	border: 1px solid  #aa72ce;
+    color: #aa72ce;
+    box-shadow: 0 0 22px rgb(170 114 206 / 14%);
 }
 .card2:hover img[src="assests/stakingImages/diamond.png"]{
 	 transition: all .2s ease-in-out;
