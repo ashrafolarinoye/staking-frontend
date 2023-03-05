@@ -1064,7 +1064,7 @@ body{
 
 
 body {
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Mulish';
 	font-size: 20px;
 	color: #ffffff;
 	line-height: 28px;
@@ -1087,7 +1087,7 @@ h1,
 h2,
 h3,
 h4 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Mulish';
 }
 
 h1 {
@@ -1427,7 +1427,7 @@ blockquote::before {
 	line-height: 0;
 	font-weight: 700;
 	color: #ebebeb;
-	font-family: poppins;
+	font-family: 'Mulish';
 }
 
 @media (min-width: 1200px) {
@@ -1559,10 +1559,10 @@ header.light {
 	font-family:Kanit;
 	src:url("fonts/Kanit.ttf");
   } 
-  @import url("https://fonts.googleapis.com/css?family=Poppins%7CRoboto"); 
+  @import url("link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet"); 
   * { 
 	  box-sizing:  border-box;
-	  font-family: Kanit, sans-serif;
+	  font-family: 'Mulish';
   } 
   
   .container { 
@@ -1735,7 +1735,8 @@ header.fixed {
 	backdrop-filter: blur(40px);
 	-webkit-box-shadow: 0px 0px 15px 0px #000000;
 	box-shadow: 0px 0px 15px 0px #000000;
-	background-color: rgba(0, 0, 0, 0.722);
+	background-color: #141a2a;
+	border-bottom: 1px solid rgba(170,114,206,0.12);
 }
 
 .fixed nav ul li a,
@@ -1900,7 +1901,7 @@ header.fixed {
 	font-size: 36px;
 	font-weight: 700;
 	color: #ffffff;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Mulish';
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	line-height: 36px;
@@ -1908,7 +1909,7 @@ header.fixed {
 
 #clock li span em {
 	display: block;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Mulish';
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 20px;
@@ -7077,7 +7078,7 @@ video {
 }
 
 .style-2.accordion .card-header a h5 {
-	font-family: "Poppins", sans-serif;
+	font-family: 'Mulish';
 	color: #000000;
 	font-size: 20px;
 	line-height: 32px;
