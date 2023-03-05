@@ -557,12 +557,11 @@ pre code {
 .containerb {
   text-align: center !important;
   width: 100% !important;  
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 30px 25px;
+  background-color: #141a2a;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
 }
 
 @media (min-width: 576px) {
